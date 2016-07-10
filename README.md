@@ -1,19 +1,35 @@
 # java设计模式之一策略模式(Strategy)
 
 ####对象抽象类(abstract class)
-  抽象类建立eatBehavior 和 playBehavior的实例
+  
+  public abstract class kid {
   ```java
-  public abstract class kid
-    
+    //抽象类建立eatBehavior 和 playBehavior的实例
     eatBehavior myEatBehavior;
     playBehavior myPlayBehavoir;
-    ```
+
+    public kid() {
+    }
     
-  抽象类中定义共有的抽象方法
-    ```java
-    public void play() 
-    public void eat()
-    public abstract void display(); //定义一个抽象方法，子方法一点要实现它
+    //抽象类中定义共有的抽象方法
+    public void play() {
+        myPlayBehavoir.play();
+    }
+
+    public void eat() {
+        myEatBehavior.eat();
+    }
+    
+    //定义一个抽象方法，子方法一定要实现它
+    public abstract void display();
+    
+    public void SetEatBehavoir(eatBehavior eb) {
+        myEatBehavior = eb;
+    }
+    public void SetFlyBehavoir(playBehavior pb) {
+        myPlayBehavoir = pb;
+    }
+  }
     ```
 ####对象的通用行为用接口(interface)定义
   
