@@ -31,6 +31,7 @@
     }
   }
     ```
+
 ####对象的通用行为用接口(interface)定义
   
   1. 吃这个动作的接口 eatBehavior.java
