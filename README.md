@@ -2,7 +2,7 @@
 
 ####对象抽象类(abstract class)
 
-######public abstract class kid
+#####public abstract class kid
   
   抽象类建立eatBehavior 和 playBehavior的实例
     eatBehavior myEatBehavior;
@@ -16,7 +16,7 @@
 ####对象的通用行为用接口(interface)定义
   
   1. 吃这个动作的接口 eatBehavior.java
-  ######public interface eatBehavior {
+  #####public interface eatBehavior {
     void eat();
   }
   
