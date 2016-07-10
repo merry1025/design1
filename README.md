@@ -16,14 +16,14 @@
 ####对象的通用行为用接口(interface)定义
   
   1. 吃这个动作的接口 eatBehavior.java
-  public interface eatBehavior {
+  ######public interface eatBehavior {
     void eat();
   }
   
   
   两个子类实现此接口，定义不同的eatBehavior动作
     第一个子类:eatCookie.java 吃饼干    
-    public class eatCookie implements eatBehavior {
+    ######public class eatCookie implements eatBehavior {
       @Override
       public void eat() {
         System.out.println("I am eating a cookie");
