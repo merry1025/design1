@@ -2,9 +2,10 @@
 
 ####对象抽象类(abstract class)
 
-#####public abstract class kid
+public abstract class kid
   
   抽象类建立eatBehavior 和 playBehavior的实例
+  
     ```java
     eatBehavior myEatBehavior;
     playBehavior myPlayBehavoir;
