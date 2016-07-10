@@ -30,7 +30,7 @@
         myPlayBehavoir = pb;
     }
   }
-    ```
+```
 
 ####对象的通用行为用接口(interface)定义
   
